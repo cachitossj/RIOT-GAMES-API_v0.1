@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "riotgames-demov0"
+version = "0.1.0"
+description = ""
+authors = ["Leo Maretto <leosmaretto.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+pandas = "^2.2.2"
+logging = "^0.4.9.6"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
