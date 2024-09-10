@@ -1,0 +1,20 @@
+# Archivos Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de entorno virtual
+.venv/
+env/
+
+# Archivos de configuración de sistema
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+riotgames_demov0/notebooks/.ipynb_checkpoints/
+
+# Archivos de configuración sensibles
+riotgames_demov0/config/config.ini
+
